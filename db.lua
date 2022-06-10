@@ -3,6 +3,8 @@ local api = {}
 -- Written by ShreksHellraiser 2022
 -- You're free to redistribute with credit.
 
+--- Get a UUID string, this is recommended for use in your complex data structures
+-- @return string
 -- https://gist.github.com/jrus/3197011
 function api.generateUUID()
   local template = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'
